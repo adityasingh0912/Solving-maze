@@ -18,14 +18,13 @@ pip install numpy matplotlib
 ## 🏗️ Installation
 Clone the repository and navigate to the project folder:
 ```bash
-git clone https://github.com/your-repo/q-learning-maze.git
-cd q-learning-maze
+git clone https://adityasingh0912/Solving-maze.git
 ```
 
 ## 🏃‍♂️ Usage
 Run the Python script to train the Q-learning agent and visualize the learned path:
 ```bash
-python q_learning_maze.py
+python q_learning_maze.ipynb
 ```
 
 ## 🎯 How It Works
@@ -36,7 +35,7 @@ python q_learning_maze.py
 5. After training, the agent follows the optimal path to reach the goal.
 
 ## 🔧 Hyperparameters
-You can tweak the following parameters in `q_learning_maze.py`:
+You can tweak the following parameters in `q_learning_maze.ipynb`:
 ```python
 alpha = 0.1       # Learning rate
 gamma = 0.9       # Discount factor
